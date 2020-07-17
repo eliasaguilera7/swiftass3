@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49025C7024C116CF001E12FF /* yellow-bokeh-photo-949587.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49025C6F24C116CF001E12FF /* yellow-bokeh-photo-949587.jpg */; };
 		4923498424BFFF460089C91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923498324BFFF460089C91F /* AppDelegate.swift */; };
 		4923498624BFFF460089C91F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923498524BFFF460089C91F /* SceneDelegate.swift */; };
 		4923498824BFFF460089C91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4923498724BFFF460089C91F /* ViewController.swift */; };
 		4923498B24BFFF460089C91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923498924BFFF460089C91F /* Main.storyboard */; };
 		4923498D24BFFF470089C91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4923498C24BFFF470089C91F /* Assets.xcassets */; };
 		4923499024BFFF470089C91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4923498E24BFFF470089C91F /* LaunchScreen.storyboard */; };
+		49E66C9424C1386500D417F4 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49E66C9324C1386500D417F4 /* bg1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49025C6F24C116CF001E12FF /* yellow-bokeh-photo-949587.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "yellow-bokeh-photo-949587.jpg"; path = "../../../Downloads/yellow-bokeh-photo-949587.jpg"; sourceTree = "<group>"; };
+		49025C7224C11AD6001E12FF /* yellow-bokeh-photo-949587.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "yellow-bokeh-photo-949587.jpg"; path = "../../Downloads/yellow-bokeh-photo-949587.jpg"; sourceTree = "<group>"; };
 		4923498024BFFF460089C91F /* Ass3_Elias_Aguilera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ass3_Elias_Aguilera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4923498324BFFF460089C91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4923498524BFFF460089C91F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		4923498C24BFFF470089C91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4923498F24BFFF470089C91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4923499124BFFF470089C91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E66C9324C1386500D417F4 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg1.jpg; path = ../../Downloads/bg1.jpg; sourceTree = "<group>"; };
+		49E66C9524C1386D00D417F4 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49025C7124C116EB001E12FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		4923497724BFFF460089C91F = {
 			isa = PBXGroup;
 			children = (
+				49025C7124C116EB001E12FF /* Images */,
 				4923498224BFFF460089C91F /* Ass3_Elias_Aguilera */,
 				4923498124BFFF460089C91F /* Products */,
+				49025C7224C11AD6001E12FF /* yellow-bokeh-photo-949587.jpg */,
+				49E66C9324C1386500D417F4 /* bg1.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +79,8 @@
 				4923498C24BFFF470089C91F /* Assets.xcassets */,
 				4923498E24BFFF470089C91F /* LaunchScreen.storyboard */,
 				4923499124BFFF470089C91F /* Info.plist */,
+				49E66C9524C1386D00D417F4 /* bg1.jpg */,
+				49025C6F24C116CF001E12FF /* yellow-bokeh-photo-949587.jpg */,
 			);
 			path = Ass3_Elias_Aguilera;
 			sourceTree = "<group>";
@@ -125,9 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49025C7024C116CF001E12FF /* yellow-bokeh-photo-949587.jpg in Resources */,
 				4923499024BFFF470089C91F /* LaunchScreen.storyboard in Resources */,
 				4923498D24BFFF470089C91F /* Assets.xcassets in Resources */,
 				4923498B24BFFF460089C91F /* Main.storyboard in Resources */,
+				49E66C9424C1386500D417F4 /* bg1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
