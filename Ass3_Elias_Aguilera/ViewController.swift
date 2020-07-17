@@ -37,11 +37,12 @@ class ViewController: UIViewController {
          button.frame = CGRect(x: 0, y: 0, width: 200, height: 21)
           
         
-       // button.setBackgroundImage(UIImage(named: "bg1.png"), for: .normal)
-       button.backgroundColor = UIColor(red: 0.4, green: 1.0, blue: 0.2, alpha: 0.5)
+       button.setBackgroundImage(UIImage(named: "bg1.jpg"), for: .normal)
+       //button.backgroundColor = UIColor(red: 0.4, green: 1.0, blue: 0.2, alpha: 0.5)
         
         
         button.setTitle("Button", for: .normal)
+        
         
         
           return button
